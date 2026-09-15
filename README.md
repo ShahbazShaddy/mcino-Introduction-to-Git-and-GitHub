@@ -19,7 +19,7 @@ T = time period in years
 ## Requirements
 
 - Bash
-- `bc` (used for decimal arithmetic)
+- `bc` (used for decimal arithmetic in the calculation)
 
 ## Usage
 
