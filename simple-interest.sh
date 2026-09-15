@@ -3,16 +3,17 @@
 # Do not use this in production. Sample purpose only.
 
 # Author: Upkar Lidder (IBM)
-# Addtional Authors:
-# <your Github username>
+# Additional Authors:
+# ShahbazShaddy
 
 # Input:
 # p, principal amount
-# t, time period in years
 # r, annual rate of interest
+# t, time period in years
 
 # Output:
-# simple interest = p*t*r
+# simple interest = (p*r*t)/100
+# total amount = p + simple interest
 
 echo "Enter the principal:"
 read p
@@ -21,6 +22,11 @@ read r
 echo "Enter time period in years:"
 read t
 
-s=$(expr $p \* $t \* $r / 100)
-echo "The simple interest is: "
-echo $s
+s=$(echo "scale=2; ($p * $r * $t) / 100" | bc)
+total=$(echo "scale=2; $p + $s" | bc)
+
+echo "Principal:        $p"
+echo "Rate of interest: $r%"
+echo "Time period:      $t years"
+echo "Simple interest:  $s"
+echo "Total amount:     $total"
