@@ -17,7 +17,7 @@
 
 echo "Enter the principal:"
 read p
-echo "Enter rate of interest per year:"
+echo "Enter the rate of interest per year:"
 read r
 echo "Enter time period in years:"
 read t
