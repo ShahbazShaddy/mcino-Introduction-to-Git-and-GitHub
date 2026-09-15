@@ -1,5 +1,7 @@
-  bug-fix-typo                be514ca [origin/bug-fix-typo] Fix typo
-* main                        be514ca [origin/main] Fix typo
-  remotes/origin/HEAD         -> origin/main
-  remotes/origin/bug-fix-typo be514ca Fix typo
-  remotes/origin/main         be514ca Fix typo
+  bug-fix-revert                c6003ea [origin/bug-fix-revert] Fix typo in README
+  bug-fix-typo                  c6003ea [origin/bug-fix-typo] Fix typo in README
+* main                          c6003ea [origin/main] Fix typo in README
+  remotes/origin/HEAD           -> origin/main
+  remotes/origin/bug-fix-revert c6003ea Fix typo in README
+  remotes/origin/bug-fix-typo   c6003ea Fix typo in README
+  remotes/origin/main           c6003ea Fix typo in README

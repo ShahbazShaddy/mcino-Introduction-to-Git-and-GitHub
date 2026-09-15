@@ -1,8 +1,9 @@
 $ git checkout main
+M	merge_branches
 Your branch is up to date with 'origin/main'.
 Switched to branch 'main'
 $ git merge bug-fix-typo
-Updating 04b33a0..be514ca
+Updating 0d07431..c6003ea
 Fast-forward
- simple-interest.sh | 2 +-
+ README.md | 2 +-
  1 file changed, 1 insertion(+), 1 deletion(-)
